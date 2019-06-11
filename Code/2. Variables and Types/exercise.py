@@ -35,6 +35,7 @@ print(message)
 # Exercise
 # 3. Amend the code so the print statement prints "Python Excercise 2.3", without
 # changing the variables values
+# (You'll need to uncomment the print statement)
 startString = "Python Excercise"
 versionNumber = 2.3
 # print(startString + versionNumber)
