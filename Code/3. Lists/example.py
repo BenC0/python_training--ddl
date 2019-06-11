@@ -90,3 +90,10 @@ myList = ["Apples", "Oranges", "Grapes"]
 myList[0:2] = "z"
 # prints ("['z', 'Grapes']")
 print(myList)
+
+# ------------------------------------------------------------------------------
+# Get the length of a list
+# ------------------------------------------------------------------------------
+myList = ["Apples", "Oranges", "Grapes"]
+# prints (3)
+print(len(myList))
