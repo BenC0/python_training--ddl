@@ -77,8 +77,16 @@ listA.extend(listB)
 print(listA)
 
 # ------------------------------------------------------------------------------
-# Slicing a list
+# Slicing a list - get item from list
 # ------------------------------------------------------------------------------
 myList = ["Apples", "Oranges", "Grapes"]
-# prints ("[''Oranges']")
+# prints ("['Oranges']")
 print(myList[1:-1])
+
+# ------------------------------------------------------------------------------
+# Slicing a list - replace items in a list
+# ------------------------------------------------------------------------------
+myList = ["Apples", "Oranges", "Grapes"]
+myList[0:2] = "z"
+# prints ("['z', 'Grapes']")
+print(myList)
