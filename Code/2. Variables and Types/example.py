@@ -87,3 +87,20 @@ print(myConvertedBool, type(myConvertedBool))
 # declare a variable as above, but asign it the value "None"
 myEmptyVariable = None
 print(myEmptyVariable, type(myEmptyVariable))
+
+# ------------------------------------------------------------------------------
+
+# Lists
+# Lists are essentially arrays, the next agenda point will cover them in more
+# detail. Declaring a list is as simple as declaring any other variable, the 
+# difference being that you wrap your values in square brackets.
+
+# Declare a list with values
+myList = ["Apples", "Oranges", "Grapes"]
+# prints all values in the list ("['Apples', 'Oranges', 'Grapes']")
+print(myList, type(myList))
+
+# Declare an empty list
+myEmptyList = []
+# prints the empty list ("[]")
+print(myEmptyList, type(myEmptyList))
