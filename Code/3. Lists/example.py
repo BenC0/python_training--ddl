@@ -75,3 +75,10 @@ listB = ["Grapes", "Kiwi"]
 listA.extend(listB)
 # prints ("['Apples', 'Oranges', 'Grapes', 'Kiwi']")
 print(listA)
+
+# ------------------------------------------------------------------------------
+# Slicing a list
+# ------------------------------------------------------------------------------
+myList = ["Apples", "Oranges", "Grapes"]
+# prints ("[''Oranges']")
+print(myList[1:-1])
