@@ -73,3 +73,11 @@ string = "Hello World!"
 splitString = string.split(' ')
 # prints (["Hello", "World!"])
 print(splitString)
+
+# Replacing a string within a string
+# Replacing a string, within a string, with another string can be done by calling the
+# `replace()` function on a string.
+string = "Goodbye World!"
+replacedString = string.replace('Goodbye', 'Hello')
+# prints ("Hello World!")
+print(replacedString)
