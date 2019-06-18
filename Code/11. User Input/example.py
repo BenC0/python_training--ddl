@@ -1,5 +1,6 @@
 # ------------------------------------------------------------------------------
 # Explanation
+# User Input
 # Getting an input from the user can be an integral part of a scripts function
 # Getting a user input is very straightforward in Python though. You just use
 # the `input()` function
